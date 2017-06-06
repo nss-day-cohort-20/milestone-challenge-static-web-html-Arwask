@@ -1,0 +1,55 @@
+/*****************
+Header
+*****************/
+#mainHeader
+{
+	box-shadow: 0 10px 5px #888888;
+	/*border-bottom: 10px solid black;*/
+	font-family: 'Courgette', cursive;
+	display: inline-flex;
+	width: 100%;
+	
+}
+
+#mainHeader img
+{
+	width: 15%;
+	height: 100%;
+	border: 3px solid white;
+/*	border-radius: 100%;*/
+}
+
+#mainHeader h1
+{
+	float: left;
+	font-size: 4em;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+}
+
+#bio
+{
+	/*box-shadow: 0 10px 5px #888888;*/
+	margin-top: 10px;
+	/*border: 2px solid red;*/
+	width: 100%;
+	font-size: 1.2em;
+	font-family: 'Courgette', cursive;
+	border-bottom: 10px solid black;
+}
+#links ul
+{
+	display: inline-flex;
+}
+
+#links li
+{
+	padding-right: 10px;
+	list-style: none;
+}
+
+#links a
+{
+	text-decoration: none;
+}
