@@ -2,6 +2,8 @@ body
 {
 	background-color:white;
 	font-family: 'Courgette', cursive;
+	border: 0;
+	padding: 0;
 }
 
 /*****************
@@ -39,7 +41,7 @@ Header
 	text-align: center;
 	width: 50%;
 	margin: auto;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 }
 
 #mainHeader h2
@@ -53,27 +55,32 @@ Header
 	padding-bottom: 20px;
 }
 
+/*******************
+BIO
+*******************/
 #bio
 {
 	box-shadow: 0 10px 5px #888888;
-	margin-top: 5px;
-	margin-bottom: 30px;
+	margin-top: 2px;
+	margin-bottom: 5px;
 	background-color: #C3C7DA;
 	border-radius: 20px;
-	/*width: 99%;*/
+	/*width: 100%;*/
 	font-size: 1.2em;
 	font-family: 'Courgette', cursive;
 	padding: 20px;
 	/*border-bottom: 1px solid black;*/
 }
 
+/********************
+NAVIGATION
+********************/
 #links
 {
 	/*background-color: #00dd00;*/
 	position: relative;
-	left:0;
 	/*border-bottom:1px solid black;*/
-	width: 100%;
+	/*width: 70%;*/
 	text-align: center;
 }
 #links ul
@@ -83,28 +90,96 @@ Header
 	width: 100%;
 }
 
+#links a:hover
+{
+	color: gray;
+}
 #links li
 {
 	width:20%;
-	padding: 10px 4%;
+	padding: 30px 4%;
 	/*border-right: 1px solid black;*/
 	list-style: none;
 }
 
 #links a
 {
-
-	padding: 10px 4%;
+	padding: 20px 4%;
 	text-decoration: none;
 	font-size: 2em;
 }
 
-.blogSection
+/********************
+EXTRA LINKS
+********************/
+#extraLinks
 {
-	border: 1px solid black;
+	box-shadow: 0 10px 5px gray;
+	padding-right: 30px;
+	width: 20%;
+	float: right;
+	border: 1px solid pink;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+#extraLinks li
+{
+	list-style: none;
+	color: blue;
+	padding-bottom: 30px;
+	/*border-bottom: 5px solid black;*/
+}
+
+#extraLinks h2
+{
+	text-align: center;
+	color: gray;
+}
+#extraLinks a
+{
+	text-decoration: none;
+}
+
+/********************
+PROJECTS
+********************/
+.project
+{
+	box-shadow: 0 10px 5px gray;
+	border: 1px solid yellow;
 	margin: 10px;
 	border-radius: 20px;
 	padding: 10px;
+	width: 70%;
+	overflow: hidden;
+	float: left;
+}
+
+/********************
+BLOG
+********************/
+#blogPost
+{
+	float: left;
+}
+
+#blogPost img
+{
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+}
+.blogSection
+{
+	box-shadow: 0 10px 5px gray;
+	border: 1px solid olive;
+	margin: 10px;
+	border-radius: 20px;
+	padding: 10px;
+	/*width: 70%;*/
+	overflow: hidden;
+
 }
 
 /*******************
@@ -131,7 +206,8 @@ FOOTER
 {
 	color: gray;
 	list-style: none;
-	padding: 0 10px;
+	/*padding: 0 10px;*/
+	width: 100%;
 }
 
 #contact ul
