@@ -13,9 +13,7 @@ Header
 {
 	border-radius: 30px;
 	box-shadow: 0 0 10px 5px #888888;
-	/*border-bottom: 10px solid black;*/
 	font-family: 'Courgette', cursive;
-	/*display: inline-flex;*/
 	width: 100%;
 	background-color: #505573;
 }
@@ -25,30 +23,23 @@ Header
 	box-shadow: 0 5px 10px #fff;
 	width: 15%;
 	margin-left: 42.5%;
-
 	height: 100%;
-	/*border: 1px solid white;*/
 	border-radius: 100%;
 }
 
 #mainHeader h1
 {
-	/*box-shadow: 0 10px 5px #70779E;
-	border: 1px solid white;*/
 	color: white;
 	border-radius: 20px;
 	font-size: 4em;
 	text-align: center;
 	width: 50%;
 	margin: auto;
-	/*margin-top: 5%;*/
 }
 
 #mainHeader h2
 {
 	color: white;
-	/*display: block;*/
-	/*float: left;*/
 	font-size: 2em;
 	text-align: center;
 	width: 100%;
@@ -65,11 +56,9 @@ BIO
 	margin-bottom: 5px;
 	background-color: #C3C7DA;
 	border-radius: 20px;
-	/*width: 100%;*/
 	font-size: 1.2em;
 	font-family: 'Courgette', cursive;
 	padding: 20px;
-	/*border-bottom: 1px solid black;*/
 }
 
 /********************
@@ -77,10 +66,7 @@ NAVIGATION
 ********************/
 #links
 {
-	/*background-color: #00dd00;*/
 	position: relative;
-	/*border-bottom:1px solid black;*/
-	/*width: 70%;*/
 	text-align: center;
 }
 #links ul
@@ -98,7 +84,6 @@ NAVIGATION
 {
 	width:20%;
 	padding: 30px 4%;
-	/*border-right: 1px solid black;*/
 	list-style: none;
 }
 
@@ -128,7 +113,6 @@ EXTRA LINKS
 	list-style: none;
 	color: blue;
 	padding-bottom: 30px;
-	/*border-bottom: 5px solid black;*/
 }
 
 #extraLinks h2
@@ -177,7 +161,6 @@ BLOG
 	margin: 10px;
 	border-radius: 20px;
 	padding: 10px;
-	/*width: 70%;*/
 	overflow: hidden;
 
 }
@@ -206,7 +189,6 @@ FOOTER
 {
 	color: gray;
 	list-style: none;
-	/*padding: 0 10px;*/
 	width: 100%;
 }
 
